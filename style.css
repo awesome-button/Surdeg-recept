@@ -1,0 +1,92 @@
+body {
+    margin: 0px;
+    background-image: url("flower.png");
+    background-size: 10%;
+}
+
+.whole {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header {
+    margin-top: 10px;
+    width: 80%;
+    height: 200px;
+    background-color: rgb(248, 198, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 40px;
+    font-family: "Lobster";
+    font-weight: 500;
+    color: rgb(122, 29, 122);
+    text-align: center;
+    font-size: 100px;
+}
+
+h3 {
+    margin: 0;
+    text-align: center;
+    font-family: "Lobster";
+    font-weight: 500;
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 5px;
+}
+
+li {
+    font-size: 18px;
+}
+
+.cont {
+    background-color: rgb(241, 206, 195);
+    width: 80%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+.ingredients {
+    padding: 10px;
+    align-self: center;
+    background-color: wheat;
+    width: 70%;
+    border-radius: 10px;
+    background-image: url("bread.png");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position-x: 70%;
+    background-position-y: 50%;
+    margin-bottom: 30px;
+}
+
+.steg {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.steg img {
+    margin-left: 30px;
+}
+
+h3 {
+    color: tomato;
+}
+
+p {
+    font-size: 18px;
+    margin: 5px;
+    width: 70%;
+}
